@@ -1,0 +1,17 @@
+.env
+.*
+!.gitignore
+*.ini
+*node_modules
+*.lck
+*~$*
+
+PCB/working_exports
+PCB/bom.xlsx
+PCB/Quad0-backups
+PCB/fp-info-cache
+PCB/#auto_saved_files#
+PCB/_autosave-Quad0.kicad_sch
+PCB/_autosave-Quad0.kicad_pcb
+PCB/fabrication-toolkit-options.json
+PCB/production
