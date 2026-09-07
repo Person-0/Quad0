@@ -291,6 +291,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Conn_01x02_3"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_3_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -425,6 +567,177 @@
 						)
 					)
 					(number "Sig"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -930,170 +1243,6 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
 					(name "~"
 						(effects
 							(font
@@ -1738,6 +1887,179 @@
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:AOTA-B201610S3R3-101-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AOTA-B201610S3R3-101-T"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42411119.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ABRACON"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AOTA-B201610S3R3-101-T"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C42411119"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AOTA-B201610S3R3-101-T_0_1"
+				(arc
+					(start -4.06 0.01)
+					(mid -3.035 1.0102)
+					(end -2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 0.01)
+					(mid -1.005 1.0102)
+					(end 0 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.01)
+					(mid 1.0249 1.0101)
+					(end 2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 0.01)
+					(mid 3.0549 1.0101)
+					(end 4.06 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 1.27)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7325,20 +7647,8 @@
 		(uuid "fe6e1916-dbae-406c-bb32-81f189ac5d0c")
 	)
 	(no_connect
-		(at 38.1 273.05)
-		(uuid "05ba89fa-70db-43cc-8ff9-a03da87defa0")
-	)
-	(no_connect
-		(at 38.1 262.89)
-		(uuid "2aff4512-0409-4ab6-a2b9-33c9c92887e4")
-	)
-	(no_connect
 		(at 487.68 78.74)
 		(uuid "2e20159e-f4fa-4c31-a47c-b7965a11502e")
-	)
-	(no_connect
-		(at 38.1 275.59)
-		(uuid "4ba9203d-f10f-4709-bad2-5d0cf7df8cba")
 	)
 	(no_connect
 		(at 191.77 220.98)
@@ -7349,24 +7659,8 @@
 		(uuid "71a87713-2852-49cf-b9ed-071ce041d73a")
 	)
 	(no_connect
-		(at 38.1 247.65)
-		(uuid "7615dd3d-add3-48e9-9caf-3877d087a815")
-	)
-	(no_connect
-		(at 38.1 252.73)
-		(uuid "7c492255-5f3f-4182-bd87-b3cc5ac71bc6")
-	)
-	(no_connect
-		(at 38.1 257.81)
-		(uuid "8d2b9202-ef05-4259-95ba-259853a57ef8")
-	)
-	(no_connect
 		(at 448.31 82.55)
 		(uuid "90dfbbec-ccf2-4222-bb80-849766a0cc27")
-	)
-	(no_connect
-		(at 38.1 250.19)
-		(uuid "9c9cfbf1-cf03-4ff1-a4e9-4ccb61f01983")
 	)
 	(no_connect
 		(at 280.67 148.59)
@@ -7377,16 +7671,8 @@
 		(uuid "b255fcf3-6017-4b5f-b1ad-271be67c76bc")
 	)
 	(no_connect
-		(at 38.1 255.27)
-		(uuid "ba29cc45-4431-4a26-8cec-3297d5329caa")
-	)
-	(no_connect
 		(at 420.37 78.74)
 		(uuid "d5bb2dc0-026a-4b74-a0f8-d765526ca7a0")
-	)
-	(no_connect
-		(at 38.1 260.35)
-		(uuid "e384ca5c-06cd-4fba-997e-b4de255083d6")
 	)
 	(no_connect
 		(at 448.31 85.09)
@@ -7399,10 +7685,6 @@
 	(no_connect
 		(at 280.67 163.83)
 		(uuid "f53d6d5d-3d29-4191-b7e0-0ee801983617")
-	)
-	(no_connect
-		(at 38.1 270.51)
-		(uuid "fac7184c-6b3a-4623-891f-2bc454422ed4")
 	)
 	(polyline
 		(pts
@@ -7616,6 +7898,16 @@
 		)
 		(uuid "0846dc77-2987-4e61-9410-31546911f59a")
 	)
+	(polyline
+		(pts
+			(xy 46.99 247.65) (xy 46.99 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0861cf65-b40b-45c4-9e5b-fbf5e7e75e7f")
+	)
 	(wire
 		(pts
 			(xy 212.09 215.9) (xy 217.17 215.9)
@@ -7779,7 +8071,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 255.27) (xy 38.1 255.27)
+			(xy 36.83 255.27) (xy 39.37 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8069,6 +8361,16 @@
 		)
 		(uuid "1802d613-b639-4f63-bd2b-6abcc37fdea7")
 	)
+	(polyline
+		(pts
+			(xy 48.26 274.955) (xy 60.325 274.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f204f6-3a51-43d8-985c-c245835bf119")
+	)
 	(wire
 		(pts
 			(xy 125.73 77.47) (xy 125.73 80.01)
@@ -8131,7 +8433,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 267.97) (xy 54.61 267.97)
+			(xy 36.83 267.97) (xy 60.96 267.97)
 		)
 		(stroke
 			(width 0)
@@ -8268,6 +8570,16 @@
 			(type default)
 		)
 		(uuid "1da59614-a913-4139-9ede-85f4439c2350")
+	)
+	(polyline
+		(pts
+			(xy 48.26 256.54) (xy 60.325 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dde2a2f-f28c-441d-8aae-b6696b5fce2c")
 	)
 	(polyline
 		(pts
@@ -8570,6 +8882,16 @@
 		)
 		(uuid "26b8b81f-3b11-466c-b9b2-2497a4336b69")
 	)
+	(polyline
+		(pts
+			(xy 46.99 245.745) (xy 60.325 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b8c07c-190d-4bc4-bd8e-2f946984107f")
+	)
 	(wire
 		(pts
 			(xy 407.67 83.82) (xy 422.91 83.82)
@@ -8589,6 +8911,16 @@
 			(type default)
 		)
 		(uuid "2774635c-99f7-4a14-a19f-8b05ca3f0a98")
+	)
+	(polyline
+		(pts
+			(xy 46.99 252.095) (xy 60.325 252.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ae2e5e-883a-4a7a-ad04-8d142bfba801")
 	)
 	(wire
 		(pts
@@ -8672,7 +9004,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 275.59) (xy 38.1 275.59)
+			(xy 36.83 275.59) (xy 39.37 275.59)
 		)
 		(stroke
 			(width 0)
@@ -8869,6 +9201,16 @@
 			(type default)
 		)
 		(uuid "2f946777-0fdf-42e5-9680-d67b4391090c")
+	)
+	(polyline
+		(pts
+			(xy 48.26 256.54) (xy 46.99 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f949df4-abc6-468a-aa14-cd2dcc8aff55")
 	)
 	(wire
 		(pts
@@ -9803,7 +10145,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 247.65) (xy 38.1 247.65)
+			(xy 36.83 247.65) (xy 39.37 247.65)
 		)
 		(stroke
 			(width 0)
@@ -9830,6 +10172,16 @@
 			(type default)
 		)
 		(uuid "4ea94439-0472-4d1b-8a2b-85046f87f698")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed641fc-7d47-416e-9441-2fa1f1d66269")
 	)
 	(wire
 		(pts
@@ -9880,6 +10232,16 @@
 			(type default)
 		)
 		(uuid "50594b8b-4c94-46d0-bd39-defd315669fd")
+	)
+	(polyline
+		(pts
+			(xy 46.99 256.54) (xy 46.99 252.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50aa1ec3-b7da-4fbc-8ef2-4677e6448245")
 	)
 	(polyline
 		(pts
@@ -9974,7 +10336,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 260.35) (xy 38.1 260.35)
+			(xy 36.83 260.35) (xy 39.37 260.35)
 		)
 		(stroke
 			(width 0)
@@ -10034,7 +10396,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 252.73) (xy 38.1 252.73)
+			(xy 36.83 252.73) (xy 39.37 252.73)
 		)
 		(stroke
 			(width 0)
@@ -10061,6 +10423,16 @@
 			(type default)
 		)
 		(uuid "584d438b-2f5b-4d13-b4cb-e1572c3c74d1")
+	)
+	(polyline
+		(pts
+			(xy 46.99 274.955) (xy 46.99 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f44c54-a23f-4f39-9bef-29bd6cb54457")
 	)
 	(wire
 		(pts
@@ -10121,6 +10493,26 @@
 			(type default)
 		)
 		(uuid "5bbf9eb3-7596-4ea6-9465-1021fe7d7658")
+	)
+	(polyline
+		(pts
+			(xy 60.325 250.19) (xy 46.99 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c42913e-06d5-4ebc-a625-644c1d3b30de")
+	)
+	(polyline
+		(pts
+			(xy 48.26 256.54) (xy 48.26 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5146f5-1568-42db-8a44-3310e4c928af")
 	)
 	(wire
 		(pts
@@ -10765,6 +11157,16 @@
 		)
 		(uuid "73fb7451-2448-451d-97cc-0e4d5d1b78f8")
 	)
+	(polyline
+		(pts
+			(xy 60.325 245.745) (xy 60.325 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74559e19-c45e-427b-a6e2-71ba03653d4b")
+	)
 	(wire
 		(pts
 			(xy 541.02 82.55) (xy 537.21 82.55)
@@ -11116,6 +11518,16 @@
 		)
 		(uuid "7e34bcff-a0af-4a64-8060-d63476cef6fd")
 	)
+	(polyline
+		(pts
+			(xy 45.72 247.65) (xy 46.99 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e521013-9022-4cf3-9dee-630df3eba77f")
+	)
 	(wire
 		(pts
 			(xy 469.9 194.31) (xy 469.9 195.58)
@@ -11319,6 +11731,16 @@
 		)
 		(uuid "89f09e0e-9d36-4346-9ba6-3149342d28e9")
 	)
+	(polyline
+		(pts
+			(xy 48.26 274.955) (xy 46.99 274.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a240af4-82f1-4b9e-8bd3-6e5810b4978d")
+	)
 	(wire
 		(pts
 			(xy 123.19 123.19) (xy 111.76 123.19)
@@ -11348,6 +11770,16 @@
 			(type default)
 		)
 		(uuid "8b692115-7863-4d11-aafc-37991d7ed0d9")
+	)
+	(polyline
+		(pts
+			(xy 60.325 270.51) (xy 60.325 274.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf6e42d-b56e-4a2f-9e93-b4b6cbe5815a")
 	)
 	(wire
 		(pts
@@ -12263,7 +12695,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 250.19) (xy 38.1 250.19)
+			(xy 36.83 250.19) (xy 39.37 250.19)
 		)
 		(stroke
 			(width 0)
@@ -12424,7 +12856,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 270.51) (xy 38.1 270.51)
+			(xy 36.83 270.51) (xy 39.37 270.51)
 		)
 		(stroke
 			(width 0)
@@ -12491,6 +12923,16 @@
 			(type default)
 		)
 		(uuid "b0a343b5-8854-4a3a-ba25-3a7f41379454")
+	)
+	(polyline
+		(pts
+			(xy 60.325 252.095) (xy 60.325 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b188ce46-dab4-4567-b543-0f40567c7c21")
 	)
 	(wire
 		(pts
@@ -12574,7 +13016,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 262.89) (xy 38.1 262.89)
+			(xy 36.83 262.89) (xy 39.37 262.89)
 		)
 		(stroke
 			(width 0)
@@ -12884,6 +13326,16 @@
 		)
 		(uuid "be3e9d43-cc2a-4bcf-bd97-19ca8e2d79a0")
 	)
+	(polyline
+		(pts
+			(xy 45.72 271.78) (xy 46.99 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebe5050-de7d-42d3-9788-61b47013f46b")
+	)
 	(wire
 		(pts
 			(xy 419.1 195.58) (xy 411.48 195.58)
@@ -13187,7 +13639,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 257.81) (xy 38.1 257.81)
+			(xy 36.83 257.81) (xy 39.37 257.81)
 		)
 		(stroke
 			(width 0)
@@ -13791,7 +14243,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 265.43) (xy 54.61 265.43)
+			(xy 36.83 265.43) (xy 60.96 265.43)
 		)
 		(stroke
 			(width 0)
@@ -14276,13 +14728,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 273.05) (xy 38.1 273.05)
+			(xy 36.83 273.05) (xy 39.37 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f1cd3ee6-47c3-4fdc-b742-c9527eb1a8a2")
+	)
+	(polyline
+		(pts
+			(xy 45.72 260.35) (xy 48.26 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d5c365-ac28-4a7c-8855-092b075738d9")
 	)
 	(wire
 		(pts
@@ -14303,16 +14765,6 @@
 			(type default)
 		)
 		(uuid "f2029ad3-103b-4c19-ab16-92d976dfc4f6")
-	)
-	(wire
-		(pts
-			(xy 113.03 83.82) (xy 113.03 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2351afc-7e2a-4359-92a8-1c01f7a5bef2")
 	)
 	(wire
 		(pts
@@ -14624,6 +15076,16 @@
 		)
 		(uuid "fbcb5706-9977-4de9-87f3-7b5e573ba404")
 	)
+	(polyline
+		(pts
+			(xy 46.99 247.65) (xy 46.99 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd33b3c-bd21-4b28-ba1f-9a9e08e0c524")
+	)
 	(wire
 		(pts
 			(xy 294.64 58.42) (xy 294.64 68.58)
@@ -14673,6 +15135,16 @@
 			(type default)
 		)
 		(uuid "fe8695ff-4a45-4284-ada1-a2bce2b72c7c")
+	)
+	(polyline
+		(pts
+			(xy 46.99 270.51) (xy 60.325 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feff946b-0c32-48c6-84ee-4d5a3b26cd65")
 	)
 	(label "IMU_CSB"
 		(at 407.67 83.82 0)
@@ -14796,7 +15268,7 @@
 		(uuid "12041380-aee3-454c-93ee-c0c8b403dbae")
 	)
 	(label "BAT_SENSE_EN"
-		(at 54.61 265.43 180)
+		(at 60.96 265.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15558,7 +16030,7 @@
 		(uuid "9489750f-b699-4b7c-a700-4e29c0539865")
 	)
 	(label "BAT_SENSE_VD"
-		(at 54.61 267.97 180)
+		(at 60.96 267.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16183,7 +16655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 450.85 158.75 0)
 			(effects
 				(font
@@ -16192,7 +16664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706081762992128-C4275.pdf?response-content-disposition=attachment%3B%20filename%3DC4275.pdf%3B%20filename%2A%3DUTF-8%27%27C4275.pdf&x-oss-date=20260907T153615Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=a833ed75db6b4caeb720becd32d6854e401ac3bec608b8adb406a72e61fb172c"
 			(at 450.85 158.75 0)
 			(effects
 				(font
@@ -16202,6 +16674,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 450.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4275"
+			(at 450.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF750JT5E"
+			(at 450.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 450.85 158.75 0)
 			(effects
 				(font
@@ -16347,7 +16846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -16356,7 +16855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588919214354124800-C77004.pdf?response-content-disposition=attachment%3B%20filename%3DC77004.pdf%3B%20filename%2A%3DUTF-8%27%27C77004.pdf&x-oss-date=20260907T152137Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=82aa17ed8b36500abc5d01fbd6a4584014c205e0763638c6d8a62c5e89080734"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -16366,6 +16865,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77004"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A475KEAAD"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -16416,7 +16942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 142.24 212.09 0)
 			(effects
 				(font
@@ -16486,7 +17012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 220.98 152.4 0)
 			(effects
 				(font
@@ -16495,7 +17021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705924159586304-C11702.pdf?response-content-disposition=attachment%3B%20filename%3DC11702.pdf%3B%20filename%2A%3DUTF-8%27%27C11702.pdf&x-oss-date=20260907T153527Z&x-oss-expires=3599&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4e29414784afe7d5fb3157838661f733a18f5589fee1660a1dfdba4b348ede4d"
 			(at 220.98 152.4 0)
 			(effects
 				(font
@@ -16506,6 +17032,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 220.98 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 220.98 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 220.98 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16555,7 +17108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 146.05 173.99 0)
 			(effects
 				(font
@@ -16564,7 +17117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 146.05 173.99 0)
 			(effects
 				(font
@@ -16574,6 +17127,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 146.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 146.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 146.05 173.99 0)
 			(effects
 				(font
@@ -16622,7 +17202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 255.27 255.27 0)
 			(effects
 				(font
@@ -16631,7 +17211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 255.27 255.27 0)
 			(effects
 				(font
@@ -16642,6 +17222,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 255.27 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 255.27 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 255.27 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 255.27 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16956,7 +17563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -16965,7 +17572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705924159586304-C11702.pdf?response-content-disposition=attachment%3B%20filename%3DC11702.pdf%3B%20filename%2A%3DUTF-8%27%27C11702.pdf&x-oss-date=20260907T153527Z&x-oss-expires=3599&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4e29414784afe7d5fb3157838661f733a18f5589fee1660a1dfdba4b348ede4d"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -16975,6 +17582,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -17505,7 +18139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -17514,7 +18148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178044432158720-C25100.pdf?response-content-disposition=attachment%3B%20filename%3DC25100.pdf%3B%20filename%2A%3DUTF-8%27%27C25100.pdf&x-oss-date=20260907T153407Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=504d6a56ca5e365e74d8a4e7486c401e4543abf149ab7e91c1dbcb79b187f6cb"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -17525,6 +18159,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25100"
+			(at 113.03 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF270JTCE"
+			(at 113.03 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 113.03 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18127,7 +18788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 377.19 158.75 0)
 			(effects
 				(font
@@ -18136,7 +18797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706081762992128-C4275.pdf?response-content-disposition=attachment%3B%20filename%3DC4275.pdf%3B%20filename%2A%3DUTF-8%27%27C4275.pdf&x-oss-date=20260907T153615Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=a833ed75db6b4caeb720becd32d6854e401ac3bec608b8adb406a72e61fb172c"
 			(at 377.19 158.75 0)
 			(effects
 				(font
@@ -18146,6 +18807,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 377.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4275"
+			(at 377.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF750JT5E"
+			(at 377.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 377.19 158.75 0)
 			(effects
 				(font
@@ -18261,7 +18949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 453.39 170.18 0)
 			(effects
 				(font
@@ -18328,7 +19016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 294.64 262.89 0)
 			(effects
 				(font
@@ -18337,7 +19025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707107916242944-C19702.pdf?response-content-disposition=attachment%3B%20filename%3DC19702.pdf%3B%20filename%2A%3DUTF-8%27%27C19702.pdf&x-oss-date=20260907T151813Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=32e3d7fb7942675d617a412da8ba827d73579b091af1ea1e08e8475f5bd09556"
 			(at 294.64 262.89 0)
 			(effects
 				(font
@@ -18347,6 +19035,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 294.64 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 294.64 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106KP8NNNC"
+			(at 294.64 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 294.64 262.89 0)
 			(effects
 				(font
@@ -18397,7 +19112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 151.13 153.67 0)
 			(effects
 				(font
@@ -18406,7 +19121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 151.13 153.67 0)
 			(effects
 				(font
@@ -18416,6 +19131,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 151.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 151.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 151.13 153.67 0)
 			(effects
 				(font
@@ -18529,7 +19271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 461.01 210.82 0)
 			(effects
 				(font
@@ -18538,7 +19280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705919460069376-C25741.pdf?response-content-disposition=attachment%3B%20filename%3DC25741.pdf%3B%20filename%2A%3DUTF-8%27%27C25741.pdf&x-oss-date=20260907T153730Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=9653cf430557eadf73a9fd3e1828d3bd11133b465789facfa43d748dc12d1883"
 			(at 461.01 210.82 0)
 			(effects
 				(font
@@ -18548,6 +19290,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 461.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 461.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 461.01 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 461.01 210.82 0)
 			(effects
 				(font
@@ -18598,7 +19367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 412.75 71.12 0)
 			(effects
 				(font
@@ -18607,7 +19376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 412.75 71.12 0)
 			(effects
 				(font
@@ -18618,6 +19387,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 412.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 412.75 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 412.75 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 412.75 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18864,7 +19660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 289.56 262.89 0)
 			(effects
 				(font
@@ -18873,7 +19669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 289.56 262.89 0)
 			(effects
 				(font
@@ -18883,6 +19679,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 289.56 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 289.56 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 289.56 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 289.56 262.89 0)
 			(effects
 				(font
@@ -19047,7 +19870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 379.73 170.18 0)
 			(effects
 				(font
@@ -19116,7 +19939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 452.12 67.31 0)
 			(effects
 				(font
@@ -19125,7 +19948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 452.12 67.31 0)
 			(effects
 				(font
@@ -19136,6 +19959,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 452.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 452.12 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 452.12 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 452.12 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19642,7 +20492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 387.35 166.37 0)
 			(effects
 				(font
@@ -19651,7 +20501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705919460069376-C25741.pdf?response-content-disposition=attachment%3B%20filename%3DC25741.pdf%3B%20filename%2A%3DUTF-8%27%27C25741.pdf&x-oss-date=20260907T153730Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=9653cf430557eadf73a9fd3e1828d3bd11133b465789facfa43d748dc12d1883"
 			(at 387.35 166.37 0)
 			(effects
 				(font
@@ -19661,6 +20511,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 387.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 387.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 387.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 387.35 166.37 0)
 			(effects
 				(font
@@ -19776,7 +20653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 541.02 78.74 0)
 			(effects
 				(font
@@ -19785,7 +20662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 541.02 78.74 0)
 			(effects
 				(font
@@ -19795,6 +20672,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 541.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 541.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 541.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 541.02 78.74 0)
 			(effects
 				(font
@@ -19843,7 +20747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 260.35 260.35 0)
 			(effects
 				(font
@@ -19852,7 +20756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260907T154002Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e91c8b4630644ca3b6363e710c8f1b816497633a7f9f8d38ceb356c37d31f795"
 			(at 260.35 260.35 0)
 			(effects
 				(font
@@ -19862,6 +20766,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 260.35 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 260.35 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 260.35 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 260.35 260.35 0)
 			(effects
 				(font
@@ -20398,7 +21329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 140.97 153.67 0)
 			(effects
 				(font
@@ -20407,7 +21338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 140.97 153.67 0)
 			(effects
 				(font
@@ -20417,6 +21348,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 140.97 153.67 0)
 			(effects
 				(font
@@ -20468,7 +21426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 261.62 73.66 0)
 			(effects
 				(font
@@ -20477,7 +21435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707107916242944-C19702.pdf?response-content-disposition=attachment%3B%20filename%3DC19702.pdf%3B%20filename%2A%3DUTF-8%27%27C19702.pdf&x-oss-date=20260907T151813Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=32e3d7fb7942675d617a412da8ba827d73579b091af1ea1e08e8475f5bd09556"
 			(at 261.62 73.66 0)
 			(effects
 				(font
@@ -20487,6 +21445,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 261.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 261.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106KP8NNNC"
+			(at 261.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 261.62 73.66 0)
 			(effects
 				(font
@@ -20604,7 +21589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 227.33 60.96 0)
 			(effects
 				(font
@@ -20613,7 +21598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705924159586304-C11702.pdf?response-content-disposition=attachment%3B%20filename%3DC11702.pdf%3B%20filename%2A%3DUTF-8%27%27C11702.pdf&x-oss-date=20260907T153527Z&x-oss-expires=3599&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4e29414784afe7d5fb3157838661f733a18f5589fee1660a1dfdba4b348ede4d"
 			(at 227.33 60.96 0)
 			(effects
 				(font
@@ -20623,6 +21608,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 227.33 60.96 0)
 			(effects
 				(font
@@ -20673,7 +21685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 500.38 203.2 0)
 			(effects
 				(font
@@ -20682,7 +21694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 500.38 203.2 0)
 			(effects
 				(font
@@ -20692,6 +21704,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 500.38 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 500.38 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 500.38 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 500.38 203.2 0)
 			(effects
 				(font
@@ -20872,7 +21911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 270.51 229.87 0)
 			(effects
 				(font
@@ -20881,7 +21920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705960426246144-C25079.pdf?response-content-disposition=attachment%3B%20filename%3DC25079.pdf%3B%20filename%2A%3DUTF-8%27%27C25079.pdf&x-oss-date=20260907T153855Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=748a8624a26fe64914c891016d65f1490794e712cc17dd54f80022557b40ac50"
 			(at 270.51 229.87 0)
 			(effects
 				(font
@@ -20892,6 +21931,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 270.51 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25079"
+			(at 270.51 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1200TCE"
+			(at 270.51 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 270.51 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21007,7 +22073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 345.44 54.61 0)
 			(effects
 				(font
@@ -21016,7 +22082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 345.44 54.61 0)
 			(effects
 				(font
@@ -21027,6 +22093,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 345.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 345.44 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 345.44 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 345.44 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21074,7 +22167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 113.03 50.8 0)
 			(effects
 				(font
@@ -21083,7 +22176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178044432158720-C25100.pdf?response-content-disposition=attachment%3B%20filename%3DC25100.pdf%3B%20filename%2A%3DUTF-8%27%27C25100.pdf&x-oss-date=20260907T153407Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=504d6a56ca5e365e74d8a4e7486c401e4543abf149ab7e91c1dbcb79b187f6cb"
 			(at 113.03 50.8 0)
 			(effects
 				(font
@@ -21094,6 +22187,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 113.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25100"
+			(at 113.03 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF270JTCE"
+			(at 113.03 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 113.03 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21144,7 +22264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 128.27 257.81 0)
 			(effects
 				(font
@@ -21303,7 +22423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 135.89 173.99 0)
 			(effects
 				(font
@@ -21312,7 +22432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 135.89 173.99 0)
 			(effects
 				(font
@@ -21322,6 +22442,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 135.89 173.99 0)
 			(effects
 				(font
@@ -21372,7 +22519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 140.97 173.99 0)
 			(effects
 				(font
@@ -21381,7 +22528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 140.97 173.99 0)
 			(effects
 				(font
@@ -21391,6 +22538,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 140.97 173.99 0)
 			(effects
 				(font
@@ -21683,7 +22857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 532.13 86.36 0)
 			(effects
 				(font
@@ -21692,7 +22866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 532.13 86.36 0)
 			(effects
 				(font
@@ -21703,6 +22877,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 532.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 532.13 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 532.13 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 532.13 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21752,7 +22953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 294.64 73.66 0)
 			(effects
 				(font
@@ -21761,7 +22962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707107916242944-C19702.pdf?response-content-disposition=attachment%3B%20filename%3DC19702.pdf%3B%20filename%2A%3DUTF-8%27%27C19702.pdf&x-oss-date=20260907T151813Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=32e3d7fb7942675d617a412da8ba827d73579b091af1ea1e08e8475f5bd09556"
 			(at 294.64 73.66 0)
 			(effects
 				(font
@@ -21771,6 +22972,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 294.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 294.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106KP8NNNC"
+			(at 294.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 294.64 73.66 0)
 			(effects
 				(font
@@ -21819,7 +23047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 53.34 204.47 0)
 			(effects
 				(font
@@ -21828,7 +23056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705941362999296-C25900.pdf?response-content-disposition=attachment%3B%20filename%3DC25900.pdf%3B%20filename%2A%3DUTF-8%27%27C25900.pdf&x-oss-date=20260907T153808Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f80dc9cc633de8447e71cfe330592b0b315e3d1a6d4c3d32ea88a1a6ca065101"
 			(at 53.34 204.47 0)
 			(effects
 				(font
@@ -21839,6 +23067,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 53.34 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25900"
+			(at 53.34 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 53.34 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 53.34 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21955,7 +23210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 485.14 201.93 0)
 			(effects
 				(font
@@ -22349,7 +23604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 294.64 223.52 0)
 			(effects
 				(font
@@ -22358,7 +23613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260907T154002Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e91c8b4630644ca3b6363e710c8f1b816497633a7f9f8d38ceb356c37d31f795"
 			(at 294.64 223.52 0)
 			(effects
 				(font
@@ -22369,6 +23624,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 294.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 294.64 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 294.64 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 294.64 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22416,7 +23698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 36.83 172.72 0)
 			(effects
 				(font
@@ -22796,7 +24078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 189.23 60.96 0)
 			(effects
 				(font
@@ -22805,7 +24087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705924159586304-C11702.pdf?response-content-disposition=attachment%3B%20filename%3DC11702.pdf%3B%20filename%2A%3DUTF-8%27%27C11702.pdf&x-oss-date=20260907T153527Z&x-oss-expires=3599&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4e29414784afe7d5fb3157838661f733a18f5589fee1660a1dfdba4b348ede4d"
 			(at 189.23 60.96 0)
 			(effects
 				(font
@@ -22815,6 +24097,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 189.23 60.96 0)
 			(effects
 				(font
@@ -22866,7 +24175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 92.71 220.98 0)
 			(effects
 				(font
@@ -22935,7 +24244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 453.39 214.63 0)
 			(effects
 				(font
@@ -23068,7 +24377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 461.01 166.37 0)
 			(effects
 				(font
@@ -23077,7 +24386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705919460069376-C25741.pdf?response-content-disposition=attachment%3B%20filename%3DC25741.pdf%3B%20filename%2A%3DUTF-8%27%27C25741.pdf&x-oss-date=20260907T153730Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=9653cf430557eadf73a9fd3e1828d3bd11133b465789facfa43d748dc12d1883"
 			(at 461.01 166.37 0)
 			(effects
 				(font
@@ -23087,6 +24396,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 461.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 461.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 461.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 461.01 166.37 0)
 			(effects
 				(font
@@ -23136,7 +24472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 254 229.87 0)
 			(effects
 				(font
@@ -23145,7 +24481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705960426246144-C25079.pdf?response-content-disposition=attachment%3B%20filename%3DC25079.pdf%3B%20filename%2A%3DUTF-8%27%27C25079.pdf&x-oss-date=20260907T153855Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=748a8624a26fe64914c891016d65f1490794e712cc17dd54f80022557b40ac50"
 			(at 254 229.87 0)
 			(effects
 				(font
@@ -23156,6 +24492,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 254 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25079"
+			(at 254 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1200TCE"
+			(at 254 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 254 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23383,7 +24746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -23392,7 +24755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706024414412800-C25105.pdf?response-content-disposition=attachment%3B%20filename%3DC25105.pdf%3B%20filename%2A%3DUTF-8%27%27C25105.pdf&x-oss-date=20260907T153244Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=335fb80fdd302a0e6e89467e8f4caefbd38dc85171020052fe0e88e86f29ccca"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -23403,6 +24766,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25105"
+			(at 144.78 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
+			(at 144.78 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 144.78 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23519,7 +24909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 426.72 158.75 0)
 			(effects
 				(font
@@ -23528,7 +24918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 426.72 158.75 0)
 			(effects
 				(font
@@ -23538,6 +24928,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 426.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 426.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 426.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 426.72 158.75 0)
 			(effects
 				(font
@@ -23586,7 +25003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 340.36 100.33 0)
 			(effects
 				(font
@@ -23595,7 +25012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 340.36 100.33 0)
 			(effects
 				(font
@@ -23606,6 +25023,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 340.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 340.36 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 340.36 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 340.36 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23656,7 +25100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 107.95 265.43 0)
 			(effects
 				(font
@@ -23785,7 +25229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -23794,7 +25238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588919214354124800-C77004.pdf?response-content-disposition=attachment%3B%20filename%3DC77004.pdf%3B%20filename%2A%3DUTF-8%27%27C77004.pdf&x-oss-date=20260907T152137Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=82aa17ed8b36500abc5d01fbd6a4584014c205e0763638c6d8a62c5e89080734"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -23804,6 +25248,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77004"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A475KEAAD"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -23822,6 +25293,78 @@
 			(project "Quad0"
 				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 44.45 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d801cd6-694b-4678-9a48-b86a049cffe7")
+		(property "Reference" "J9"
+			(at 47.244 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO[27-29]"
+			(at 46.99 273.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 44.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca75ff32-cb0f-43bd-9bf0-a14d9a725c0d")
+		)
+		(pin "2"
+			(uuid "d00ce7e7-4f1c-4c5a-84e1-86247ecaf9b5")
+		)
+		(pin "3"
+			(uuid "8ab2c61d-4452-4c43-8448-a79cb4a3ae68")
+		)
+		(instances
+			(project ""
+				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -23854,7 +25397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 130.81 153.67 0)
 			(effects
 				(font
@@ -23863,7 +25406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 130.81 153.67 0)
 			(effects
 				(font
@@ -23873,6 +25416,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 130.81 153.67 0)
 			(effects
 				(font
@@ -23921,7 +25491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 450.85 203.2 0)
 			(effects
 				(font
@@ -23930,7 +25500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706081762992128-C4275.pdf?response-content-disposition=attachment%3B%20filename%3DC4275.pdf%3B%20filename%2A%3DUTF-8%27%27C4275.pdf&x-oss-date=20260907T153615Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=a833ed75db6b4caeb720becd32d6854e401ac3bec608b8adb406a72e61fb172c"
 			(at 450.85 203.2 0)
 			(effects
 				(font
@@ -23940,6 +25510,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 450.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4275"
+			(at 450.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF750JT5E"
+			(at 450.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 450.85 203.2 0)
 			(effects
 				(font
@@ -23991,7 +25588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 128.27 265.43 0)
 			(effects
 				(font
@@ -24187,7 +25784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2mm"
 			(at 107.95 257.81 0)
 			(effects
 				(font
@@ -24250,7 +25847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 181.61 162.56 0)
 			(effects
 				(font
@@ -24259,7 +25856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8755234992119263232-C106997.pdf?response-content-disposition=attachment%3B%20filename%3DC106997.pdf%3B%20filename%2A%3DUTF-8%27%27C106997.pdf&x-oss-date=20260907T152707Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=ff14d9e019d9178d4f0da47fa10ce7042f6dad3a051ffe8a14475170117e9970"
 			(at 181.61 162.56 0)
 			(effects
 				(font
@@ -24269,6 +25866,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106997"
+			(at 181.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN150"
+			(at 181.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 181.61 162.56 0)
 			(effects
 				(font
@@ -24287,6 +25911,76 @@
 			(project "Quad0"
 				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_3")
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 44.45 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2ea72eb-10ed-4413-8b43-d40696ef67d1")
+		(property "Reference" "J10"
+			(at 47.244 253.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO[23-24]"
+			(at 47.244 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 44.45 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd7bf5e1-3ff5-47fd-a780-fcd85b9b5a1f")
+		)
+		(pin "1"
+			(uuid "e3cc4314-c963-4199-ba3e-dcb804306eba")
+		)
+		(instances
+			(project ""
+				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -24659,7 +26353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 135.89 153.67 0)
 			(effects
 				(font
@@ -24668,7 +26362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 135.89 153.67 0)
 			(effects
 				(font
@@ -24678,6 +26372,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 135.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 135.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 135.89 153.67 0)
 			(effects
 				(font
@@ -24728,7 +26449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 156.21 153.67 0)
 			(effects
 				(font
@@ -24737,7 +26458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 156.21 153.67 0)
 			(effects
 				(font
@@ -24747,6 +26468,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 156.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 156.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 156.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 156.21 153.67 0)
 			(effects
 				(font
@@ -24872,6 +26620,102 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:AOTA-B201610S3R3-101-T")
+		(at 113.03 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a87b3840-d497-4735-a499-b39d1a478829")
+		(property "Reference" "L2"
+			(at 109.728 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AOTA-B201610S3R3-101-T"
+			(at 114.808 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T"
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42411119.pdf"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ABRACON"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AOTA-B201610S3R3-101-T"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C42411119"
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f257be22-8deb-4085-a1f8-1b7d234ee2b1")
+		)
+		(pin "2"
+			(uuid "b016b857-bd4e-4c75-ad21-7af0ebe7dbd8")
+		)
+		(instances
+			(project ""
+				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 387.35 210.82 180)
 		(unit 1)
@@ -24896,7 +26740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 387.35 210.82 0)
 			(effects
 				(font
@@ -24905,7 +26749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705919460069376-C25741.pdf?response-content-disposition=attachment%3B%20filename%3DC25741.pdf%3B%20filename%2A%3DUTF-8%27%27C25741.pdf&x-oss-date=20260907T153730Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=9653cf430557eadf73a9fd3e1828d3bd11133b465789facfa43d748dc12d1883"
 			(at 387.35 210.82 0)
 			(effects
 				(font
@@ -24915,6 +26759,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 387.35 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 387.35 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 387.35 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 387.35 210.82 0)
 			(effects
 				(font
@@ -25099,7 +26970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 485.14 157.48 0)
 			(effects
 				(font
@@ -25234,7 +27105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 213.36 156.21 0)
 			(effects
 				(font
@@ -25243,7 +27114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8755234992119263232-C106997.pdf?response-content-disposition=attachment%3B%20filename%3DC106997.pdf%3B%20filename%2A%3DUTF-8%27%27C106997.pdf&x-oss-date=20260907T152707Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=ff14d9e019d9178d4f0da47fa10ce7042f6dad3a051ffe8a14475170117e9970"
 			(at 213.36 156.21 0)
 			(effects
 				(font
@@ -25253,6 +27124,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106997"
+			(at 213.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN150"
+			(at 213.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
 			(at 213.36 156.21 0)
 			(effects
 				(font
@@ -25303,7 +27201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 307.34 227.33 0)
 			(effects
 				(font
@@ -25312,7 +27210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705971406659584-C25756.pdf?response-content-disposition=attachment%3B%20filename%3DC25756.pdf%3B%20filename%2A%3DUTF-8%27%27C25756.pdf&x-oss-date=20260907T154040Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e2f1ecf3b579d9aa893576a5b93f36c547326cbfc5c53ccab21a11230f8d1ec1"
 			(at 307.34 227.33 0)
 			(effects
 				(font
@@ -25322,6 +27220,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 307.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25756"
+			(at 307.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1502TCE"
+			(at 307.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 307.34 227.33 0)
 			(effects
 				(font
@@ -25438,7 +27363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 379.73 214.63 0)
 			(effects
 				(font
@@ -25507,7 +27432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 146.05 153.67 0)
 			(effects
 				(font
@@ -25516,7 +27441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 146.05 153.67 0)
 			(effects
 				(font
@@ -25526,6 +27451,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 146.05 153.67 0)
 			(effects
 				(font
@@ -25641,7 +27593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 426.72 203.2 0)
 			(effects
 				(font
@@ -25650,7 +27602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 426.72 203.2 0)
 			(effects
 				(font
@@ -25660,6 +27612,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 426.72 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 426.72 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 426.72 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 426.72 203.2 0)
 			(effects
 				(font
@@ -25773,7 +27752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 377.19 203.2 0)
 			(effects
 				(font
@@ -25782,7 +27761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706081762992128-C4275.pdf?response-content-disposition=attachment%3B%20filename%3DC4275.pdf%3B%20filename%2A%3DUTF-8%27%27C4275.pdf&x-oss-date=20260907T153615Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=a833ed75db6b4caeb720becd32d6854e401ac3bec608b8adb406a72e61fb172c"
 			(at 377.19 203.2 0)
 			(effects
 				(font
@@ -25792,6 +27771,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 377.19 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4275"
+			(at 377.19 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF750JT5E"
+			(at 377.19 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 377.19 203.2 0)
 			(effects
 				(font
@@ -25843,7 +27849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 411.48 157.48 0)
 			(effects
 				(font
@@ -26082,6 +28088,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 44.45 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4aa9ef3-e3a1-4b47-8544-6c879930c9e7")
+		(property "Reference" "J8"
+			(at 47.244 247.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO[18-22]"
+			(at 47.244 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 44.45 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "822a9bb9-d7b1-402f-9a03-3d9878827738")
+		)
+		(pin "2"
+			(uuid "491e11af-3506-46b1-b92c-077bbc44ccdd")
+		)
+		(pin "1"
+			(uuid "e9ac4b9d-bf11-4cc3-bef2-53693c15c703")
+		)
+		(pin "5"
+			(uuid "9699529a-b2b7-48ff-b58c-49aad711b276")
+		)
+		(pin "4"
+			(uuid "860e1c03-e6f5-45a1-b02a-9f210d8510bc")
+		)
+		(instances
+			(project ""
+				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 217.17 210.82 0)
 		(unit 1)
@@ -26239,7 +28323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 294.64 161.29 0)
 			(effects
 				(font
@@ -26248,7 +28332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706035999215616-C25905.pdf?response-content-disposition=attachment%3B%20filename%3DC25905.pdf%3B%20filename%2A%3DUTF-8%27%27C25905.pdf&x-oss-date=20260907T153209Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f19ae6d95eb20a210a2e5fd82e96d95aa9afcf112900d8270dd15b936057a3ba"
 			(at 294.64 161.29 0)
 			(effects
 				(font
@@ -26259,6 +28343,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 294.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 294.64 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 294.64 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 294.64 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26308,7 +28419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 500.38 158.75 0)
 			(effects
 				(font
@@ -26317,7 +28428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 500.38 158.75 0)
 			(effects
 				(font
@@ -26327,6 +28438,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 500.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 500.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 500.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 500.38 158.75 0)
 			(effects
 				(font
@@ -26442,7 +28580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -26451,7 +28589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588919214354124800-C77004.pdf?response-content-disposition=attachment%3B%20filename%3DC77004.pdf%3B%20filename%2A%3DUTF-8%27%27C77004.pdf&x-oss-date=20260907T152137Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=82aa17ed8b36500abc5d01fbd6a4584014c205e0763638c6d8a62c5e89080734"
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -26462,6 +28600,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77004"
+			(at 144.78 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A475KEAAD"
+			(at 144.78 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 144.78 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26511,7 +28676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 521.97 90.17 0)
 			(effects
 				(font
@@ -26520,7 +28685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705919460069376-C25741.pdf?response-content-disposition=attachment%3B%20filename%3DC25741.pdf%3B%20filename%2A%3DUTF-8%27%27C25741.pdf&x-oss-date=20260907T153730Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=9653cf430557eadf73a9fd3e1828d3bd11133b465789facfa43d748dc12d1883"
 			(at 521.97 90.17 0)
 			(effects
 				(font
@@ -26530,6 +28695,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 521.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 521.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 521.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 521.97 90.17 0)
 			(effects
 				(font
@@ -27023,7 +29215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0603"
 			(at 151.13 60.96 0)
 			(effects
 				(font
@@ -27032,7 +29224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707107916242944-C19702.pdf?response-content-disposition=attachment%3B%20filename%3DC19702.pdf%3B%20filename%2A%3DUTF-8%27%27C19702.pdf&x-oss-date=20260907T151813Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=32e3d7fb7942675d617a412da8ba827d73579b091af1ea1e08e8475f5bd09556"
 			(at 151.13 60.96 0)
 			(effects
 				(font
@@ -27042,6 +29234,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106KP8NNNC"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 151.13 60.96 0)
 			(effects
 				(font
@@ -27092,7 +29311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 125.73 153.67 0)
 			(effects
 				(font
@@ -27101,7 +29320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 125.73 153.67 0)
 			(effects
 				(font
@@ -27111,6 +29330,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 125.73 153.67 0)
 			(effects
 				(font
@@ -27718,7 +29964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 411.48 201.93 0)
 			(effects
 				(font
@@ -27755,76 +30001,6 @@
 			(project "Quad0"
 				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
 					(reference "Motor4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 113.03 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee5bd2f9-ab03-4150-8f25-2dd9ec745a1d")
-		(property "Reference" "L1"
-			(at 114.3 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3u"
-			(at 114.3 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8255b2c6-56de-42b4-bfa9-d567fe07b415")
-		)
-		(pin "1"
-			(uuid "a473843b-4da7-4318-a0d2-8f3acfae9b68")
-		)
-		(instances
-			(project ""
-				(path "/159302b8-19e4-4e7d-ac2c-4d85bb25e44b"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -28104,7 +30280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 220.98 99.06 0)
 			(effects
 				(font
@@ -28113,7 +30289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260907T152356Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=b1a5c8f7e37413d089dc4e7b7e8fc4c33ce04507d3d7d702fd297b3dc60ad416"
 			(at 220.98 99.06 0)
 			(effects
 				(font
@@ -28124,6 +30300,33 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 220.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 220.98 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 220.98 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 220.98 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28237,7 +30440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 53.34 201.93 0)
 			(effects
 				(font
@@ -28246,7 +30449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705941362999296-C25900.pdf?response-content-disposition=attachment%3B%20filename%3DC25900.pdf%3B%20filename%2A%3DUTF-8%27%27C25900.pdf&x-oss-date=20260907T153808Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nbc9DT1IZgjpivT1%2BIo1g9OtgdvZyfqTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qd1XzAUu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWirrA8LJLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIm6QbJ6KWD5sagAFxiMsIrZ4EOtrwOTiJLPKoNdkbF4TiZCzoKJAsT86QgZSnDXyP5ho0UBN7m0vaPoHQopbK9IcungjErAAI8K4w62ML3xTN%2BTr%2BUGGk9EIJiO8FHHtkYZsXCLQXJNZM2Jr4ryNsDaXsddaJiAZyH6UJEDuqogWCEjomy%2BHKN5Iy3CAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZn8jg9YA9ZDMy9GXh6W1RY4K%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f80dc9cc633de8447e71cfe330592b0b315e3d1a6d4c3d32ea88a1a6ca065101"
 			(at 53.34 201.93 0)
 			(effects
 				(font
@@ -28257,6 +30460,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 53.34 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25900"
+			(at 53.34 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4701TCE"
+			(at 53.34 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 53.34 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28304,7 +30534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:R0402"
 			(at 294.64 146.05 0)
 			(effects
 				(font
@@ -28313,7 +30543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706035999215616-C25905.pdf?response-content-disposition=attachment%3B%20filename%3DC25905.pdf%3B%20filename%2A%3DUTF-8%27%27C25905.pdf&x-oss-date=20260907T153209Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nDEv7i2Ipv1KqKemjYtlANS7ZPu4vFlzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qe4r9gcu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWppA1tHRLjvyAFpORa%2Bb5wchMHn6pr9EWOXuJZUIn3b%2FstWNupKq5ldctHSeoXq108CXVnU5PXYIp4k27qKWD5sagAEFqI7NarBlRzR9b2OARctJlozG%2F0Lm1V4CiT2J%2BToBm10u22Uo%2FQrJD6R6lMdnCMk9uW2e%2FlXjAyNQkgWi8W6h5Vv5EX%2Fxnx%2B%2F71xx4cCjnx2tiaJU4ZjiG28IWDcTV6mR2uQwJAbldE%2FwGUOfW89pQPLrApOatwd%2FYDYvMPginSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZvYDV5UNchaxNiRPXG9cTNnu%2F20260907%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=f19ae6d95eb20a210a2e5fd82e96d95aa9afcf112900d8270dd15b936057a3ba"
 			(at 294.64 146.05 0)
 			(effects
 				(font
@@ -28324,6 +30554,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 294.64 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 294.64 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 294.64 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
