@@ -6,12 +6,12 @@
 *.lck
 *~$*
 
-PCB/working_exports
-PCB/bom.xlsx
-PCB/Quad0-backups
-PCB/fp-info-cache
-PCB/#auto_saved_files#
-PCB/_autosave-Quad0.kicad_sch
-PCB/_autosave-Quad0.kicad_pcb
-PCB/fabrication-toolkit-options.json
-PCB/production
+PCB/Quad0/working_exports
+PCB/Quad0/bom.xlsx
+PCB/Quad0/Quad0-backups
+PCB/Quad0/fp-info-cache
+PCB/Quad0/#auto_saved_files#
+PCB/Quad0/_autosave-Quad0.kicad_sch
+PCB/Quad0/_autosave-Quad0.kicad_pcb
+PCB/Quad0/fabrication-toolkit-options.json
+PCB/Quad0/production
