@@ -5,13 +5,17 @@
 ## Design
 This is a custom flight controller with minimal stuff required to fly a quadcopter on-board, supporting both brushless and brushed motors.
 
-Planned onboard components include:
+Onboard components include:
 
-- a powerful enough MCU
-- IMU (Accelerometer, Gyroscope, Magnetometer, Barometer): Might add/remove depending upon requirements
-- MOSFET motor drivers for brushed motors
+- `RP2350A` Microcontroller Unit
+- **IMU**:
+    - `ICM-42688-P` Accelerometer & Gyroscope
+    - `DPS368XTSA1` Barometer
+    - `BMM150` Magnetometer
 
-It implements support for both brushless and brushed motors by providing separate solder pads or connectors (like JST 2pin/3pin, 2.54mm headers) for connecting the ESC's signal pin or controlling the MOSFET gate.
+- MOSFET motor drivers (DMN2024UFDF-7) for brushed motors
+- Pads to connect brushed / brushless motors
+- Support for ESP01 WiFi module for brushed mode OR any radio receiver that supports SBUS or similar protocols for brushless mode
 
 The board will be designed in a way such that it can fly with standard 8520 coreless motors and a tiny lipo battery for brushed mode.
 
