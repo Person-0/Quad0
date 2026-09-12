@@ -5899,15 +5899,15 @@
 			(uuid "9e93d57c-3170-462a-bf55-86a83acd669f")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIFIM-TH_8P-L24.7-W14.4-H2.8-P2.54.wrl"
+		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIFIM-TH_8P-L24.7-W14.4-H2.8-P2.54.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 9.55 0.1 2.025)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
