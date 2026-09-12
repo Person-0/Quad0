@@ -522,7 +522,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CAD/models/Quad0_PCB.step",
       "svg": "",
       "vrml": ""
     },
