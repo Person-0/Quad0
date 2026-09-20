@@ -28,7 +28,7 @@ set(PICO_BOARD pico2 CACHE STRING "Board type")
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(quad0 C CXX ASM)
+project(Quad0 C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
@@ -36,25 +36,25 @@ pico_sdk_init()
 # Add executable. Default name is the project name, version 0.1
 
 if (TARGET tinyusb_device)
-    add_executable(quad0
-            quad0.c
+    add_executable(Quad0
+            Quad0.c
             src/battery.c
             )
 
     # pull in common dependencies
-    target_link_libraries(quad0
+    target_link_libraries(Quad0
         pico_stdlib
         hardware_adc
     )
 
     # enable usb output, disable uart output
-    pico_enable_stdio_usb(quad0 1)
-    pico_enable_stdio_uart(quad0 0)
+    pico_enable_stdio_usb(Quad0 1)
+    pico_enable_stdio_uart(Quad0 0)
 
     # create map/bin/hex/uf2 file etc.
-    pico_add_extra_outputs(quad0)
+    pico_add_extra_outputs(Quad0)
 
     # add url via pico_set_program_url
 elseif(PICO_ON_DEVICE)
-    message("Skipping quad0 because TinyUSB submodule is not initialized in the SDK")
+    message("Skipping Quad0 because TinyUSB submodule is not initialized in the SDK")
 endif()

@@ -8,9 +8,9 @@ void blink_stat(uint8_t times, uint8_t interval) {
     while(times > 0) {
         times -= 1;
         gpio_put(STAT_LED, 1);
-        sleep_ms(interval);
+        sleep_ms(interval / 2);
         gpio_put(STAT_LED, 0);
-        sleep_ms(interval);
+        sleep_ms(interval / 2);
     }
 }
 
@@ -24,7 +24,7 @@ int main() {
     // initialize battery info
     setup_battery_info();
     if (battery_read() <= 15) { // don't continue if battery < 15%
-        blink_stat(2, 125);
+        blink_stat(2, 250);
         return 0;
     }
 
