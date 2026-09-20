@@ -39,12 +39,14 @@ if (TARGET tinyusb_device)
     add_executable(Quad0
             Quad0.c
             src/battery.c
+            src/wifi.c
             )
 
     # pull in common dependencies
     target_link_libraries(Quad0
         pico_stdlib
         hardware_adc
+        hardware_uart
     )
 
     # enable usb output, disable uart output

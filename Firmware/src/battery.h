@@ -1,2 +1,2 @@
-void setup_battery_info();
+void battery_setup();
 uint8_t battery_read();

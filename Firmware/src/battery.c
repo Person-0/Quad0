@@ -4,7 +4,7 @@
 #include "./battery.h"
 #include "../pin_defs.h"
 
-void setup_battery_info() {
+void battery_setup() {
     adc_init();
     adc_gpio_init(BAT_SENSE_VD);
     adc_select_input(0);

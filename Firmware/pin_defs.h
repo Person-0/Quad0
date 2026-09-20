@@ -1,4 +1,5 @@
 // Wifi / Receiver
+#define WIFI_UART_BLOCK  1
 #define WIFI_RX         16
 #define WIFI_TX         17
 

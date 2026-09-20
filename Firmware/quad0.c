@@ -3,6 +3,7 @@
 
 #include "./pin_defs.h"
 #include "./src/battery.h"
+#include "./src/wifi.h"
 
 void blink_stat(uint8_t times, uint8_t interval) {
     while(times > 0) {
@@ -22,14 +23,17 @@ int main() {
     gpio_put(STAT_LED, 0);
 
     // initialize battery info
-    setup_battery_info();
+    battery_setup();
     if (battery_read() <= 15) { // don't continue if battery < 15%
         blink_stat(2, 250);
         return 0;
     }
 
+    // initialize wifi
+    wifi_setup();
+
     while (true) {
-        sleep_ms(1000);
+        wifi_task();
     }
 
     return 0;
