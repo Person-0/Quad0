@@ -1,3 +1,7 @@
+// ===============================
+//      Pin Definitions
+// ===============================
+
 // Wifi / Receiver
 #define WIFI_UART_BLOCK  1
 #define WIFI_RX         16
@@ -34,3 +38,8 @@
 
 // MISC
 #define STAT_LED        15
+
+// ===============================
+//      Motor Config
+// ===============================
+#define MOTOR_MAX_VAL 6249
