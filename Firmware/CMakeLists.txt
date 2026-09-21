@@ -51,6 +51,7 @@ if (TARGET tinyusb_device)
         hardware_uart
         hardware_pwm
         hardware_i2c
+        hardware_spi
     )
 
     # enable usb output, disable uart output

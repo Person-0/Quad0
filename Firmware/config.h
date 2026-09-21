@@ -21,12 +21,13 @@
 #define MG_DRDY         10
 
 // Accelerometer / Gyroscope
-#define IMU_SCL          2
-#define IMU_MOSI         3
-#define IMU_MISO         4
-#define IMU_CSB          5
-#define IMU_INT1         6
-#define IMU_INT2         7
+#define ICM_SPI_BLK     spi0
+#define ICM_SCK          2
+#define ICM_MOSI         3
+#define ICM_MISO         4
+#define ICM_CSB          5
+#define ICM_INT1         6
+#define ICM_INT2         7
 
 // Motor drivers / ESC connection
 #define MOTOR1          11
@@ -61,7 +62,8 @@
 //      IMU Config
 // ===============================
 
-#define I2C_SPEED       400 // kHz
+#define I2C_SPEED       400  // kHz
+#define SPI_SPEED       1    // MHz
 
 // Barometer
 #define BAR_I2C_ADDR    0x77
@@ -72,3 +74,7 @@
 #define MG_I2C_ADDR     0x10
 #define MG_PRODID       0x32
 #define MG_IDREG        0x40
+
+// Accelerometer / Gyroscope
+#define ICM_WAI_REG     0x75
+#define ICM_WAI_VAL     0x47

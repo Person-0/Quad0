@@ -25,3 +25,4 @@ These are the error codes currently coded in the firmware. If these are displaye
     - Code available in serial console
     - 1: barometer_test() returned false
     - 2: magnetometer_test() returned false
+    - 3: icm_test() returned false (ICM-42688, Accelerometer + Gyro)
