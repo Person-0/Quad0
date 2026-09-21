@@ -4,6 +4,7 @@
 #include "./config.h"
 #include "./src/battery.h"
 #include "./src/wifi.h"
+#include "./src/imu.h"
 #include "./src/motors.h"
 
 void blink_stat(uint8_t times, uint8_t interval) {
@@ -38,6 +39,14 @@ int main() {
 
     // wifi setup
     wifi_setup();
+
+    // imu setup (accelerometer/gyro + baro + magneto)
+    uint8_t imu_setup_stat = imu_setup();
+    if (imu_setup_stat > 0) {
+        printf("IMU FAILED: %d\n", imu_setup_stat);
+        blink_stat(5, 250);
+        return 0;
+    }
 
     // motor setup
     motor_setup();

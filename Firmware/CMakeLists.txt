@@ -40,6 +40,7 @@ if (TARGET tinyusb_device)
             Quad0.c
             src/battery.c
             src/wifi.c
+            src/imu.c
             src/motors.c
             )
 
@@ -49,6 +50,7 @@ if (TARGET tinyusb_device)
         hardware_adc
         hardware_uart
         hardware_pwm
+        hardware_i2c
     )
 
     # enable usb output, disable uart output

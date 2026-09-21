@@ -8,6 +8,7 @@
 #define WIFI_TX         17
 
 // Barometer
+#define BAR_I2C_BLK     i2c0
 #define BAR_SDA          0
 #define BAR_SCL          1
 #define BAR_INT          8
@@ -39,6 +40,7 @@
 // MISC
 #define STAT_LED        15
 
+
 // ===============================
 //      Battery Config
 // ===============================
@@ -46,8 +48,20 @@
 #define BOOT_MIN_BAT    15
 #define MIN_BAT_REQ     5
 
+
 // ===============================
 //      Motor Config
 // ===============================
 
-#define MOTOR_MAX_VAL 6249
+#define MOTOR_MAX_VAL   6249
+
+
+// ===============================
+//      IMU Config
+// ===============================
+
+// Barometer
+#define BAR_SPEED       400 // kHz
+#define BAR_I2C_ADDR    0x77
+#define BAR_PRODID      0x10
+#define BAR_IDREG       0x8D

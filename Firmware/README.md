@@ -18,3 +18,4 @@ The firmware is currently work-in-progress and will be updated as I build the pr
 These are the error codes currently coded in the firmware. If these are displayed, it means the MCU encountered a fatal error and cannot continue normal operation.
 
 - 2 blinks, 250ms interval -> Battery too low
+- 5 blinks, 250ms interval -> IMU setup failed, check serial log for more info
