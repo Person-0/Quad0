@@ -40,6 +40,14 @@
 #define STAT_LED        15
 
 // ===============================
+//      Battery Config
+// ===============================
+
+#define BOOT_MIN_BAT    15
+#define MIN_BAT_REQ     5
+
+// ===============================
 //      Motor Config
 // ===============================
+
 #define MOTOR_MAX_VAL 6249

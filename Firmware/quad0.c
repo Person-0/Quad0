@@ -17,8 +17,8 @@ void blink_stat(uint8_t times, uint8_t interval) {
 }
 
 // returns 1 if battery too less, else 0
-bool battery_status_check() {
-    if (battery_read() <= 15) {
+bool battery_status_check(uint8_t check) {
+    if (battery_read() <= check) {
         blink_stat(2, 250);
         return 1;
     }
@@ -34,7 +34,7 @@ int main() {
 
     // battery setup
     battery_setup();
-    if (battery_status_check()) return 0;
+    if (battery_status_check(BOOT_MIN_BAT)) return 0;
 
     // wifi setup
     wifi_setup();
@@ -49,7 +49,7 @@ int main() {
 
         // read battery in defined interval (in battery_status_check),
         // exit if check failed
-        if (battery_should_read() && battery_status_check()) {
+        if (battery_should_read() && battery_status_check(MIN_BAT_REQ)) {
             break;
         }
 
