@@ -10,7 +10,7 @@ The firmware is currently work-in-progress and will be updated as I build the pr
 1. MCU Powered-on, Stat LED initialized
 2. Battery status checking logic initialized
 3. Battery read, if equal-to or below 15%, boot halted with status indication
-4. Other components initialized
+4. Other components initialized (WiFI Rx, IMU, Motors)
 5. Main loop starts and calls all methods at every iteration
 
 ### Status LED Indications
