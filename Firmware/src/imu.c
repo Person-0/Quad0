@@ -19,7 +19,7 @@ bool barometer_test() {
 
     i2c_write_blocking(I2C_BLK, BAR_I2C_ADDR, &reg, 1, true);
     i2c_read_blocking(I2C_BLK, BAR_I2C_ADDR, &id, 1, false);
-    
+
     return id == BAR_PRODID;
 }
 
@@ -95,6 +95,7 @@ bool icm_test() {
 
 void icm_read() {
     // WIP
+    // INT1, INT2 pin unused currently
 }
 
 
