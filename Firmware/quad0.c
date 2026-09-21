@@ -32,7 +32,7 @@ int main() {
 
     // battery stuff
     battery_setup();
-    if (battery_status_check()) return;
+    if (battery_status_check()) return 0;
 
     // wifi stuff
     wifi_setup();
