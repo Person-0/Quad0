@@ -40,6 +40,7 @@ if (TARGET tinyusb_device)
             Quad0.c
             src/battery.c
             src/wifi.c
+            src/motors.c
             )
 
     # pull in common dependencies
@@ -47,6 +48,7 @@ if (TARGET tinyusb_device)
         pico_stdlib
         hardware_adc
         hardware_uart
+        hardware_pwm
     )
 
     # enable usb output, disable uart output

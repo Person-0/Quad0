@@ -2,7 +2,7 @@
 #include "hardware/adc.h"
 
 #include "./battery.h"
-#include "../pin_defs.h"
+#include "../config.h"
 
 void battery_setup() {
     adc_init();

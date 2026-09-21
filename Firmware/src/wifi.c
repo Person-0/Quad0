@@ -3,7 +3,7 @@
 #include "hardware/uart.h"
 
 #include "./wifi.h"
-#include "../pin_defs.h"
+#include "../config.h"
 
 #define WIFI_UART WIFI_UART_BLOCK == 1 ? uart1 : uart0
 

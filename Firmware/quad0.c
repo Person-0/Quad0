@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
-#include "./pin_defs.h"
+#include "./config.h"
 #include "./src/battery.h"
 #include "./src/wifi.h"
+#include "./src/motors.h"
 
 void blink_stat(uint8_t times, uint8_t interval) {
     while(times > 0) {
@@ -15,6 +16,7 @@ void blink_stat(uint8_t times, uint8_t interval) {
     }
 }
 
+// returns 1 if battery too less, else 0
 bool battery_status_check() {
     if (battery_read() <= 15) {
         blink_stat(2, 250);
@@ -30,12 +32,15 @@ int main() {
     gpio_init(STAT_LED);
     gpio_put(STAT_LED, 0);
 
-    // battery stuff
+    // battery setup
     battery_setup();
     if (battery_status_check()) return 0;
 
-    // wifi stuff
+    // wifi setup
     wifi_setup();
+
+    // motor setup
+    motor_setup();
 
     // main loop
     while (true) {
