@@ -13,8 +13,9 @@ void barometer_setup() {
 
 // returns true if barometer working fine
 bool barometer_test() {
+    uint8_t reg = BAR_IDREG;
     uint8_t id;
-    i2c_write_blocking(I2C_BLK, BAR_I2C_ADDR, BAR_IDREG, 1, true);
+    i2c_write_blocking(I2C_BLK, BAR_I2C_ADDR, &reg, 1, true);
     i2c_read_blocking(I2C_BLK, BAR_I2C_ADDR, &id, 1, false);
     return id == BAR_PRODID;
 }
@@ -34,8 +35,9 @@ void magnetometer_setup() {
 
 // returns true if magnetometer working fine
 bool magnetometer_test() {
+    uint8_t reg = MG_IDREG;
     uint8_t id;
-    i2c_write_blocking(I2C_BLK, MG_I2C_ADDR, MG_IDREG, 1, true);
+    i2c_write_blocking(I2C_BLK, MG_I2C_ADDR, &reg, 1, true);
     i2c_read_blocking(I2C_BLK, MG_I2C_ADDR, &id, 1, false);
     return id == MG_PRODID;
 }
