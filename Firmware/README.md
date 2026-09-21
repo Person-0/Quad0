@@ -41,3 +41,7 @@ These are the error codes currently coded in the firmware. If these are displaye
 ## Special Notes
 
 - Use the official Raspberry Pi Pico VS Code extension to build or flash the firmware as it will save you lots of time and config messes.
+
+
+## Pin Definiions
+Available in [config.h](./config.h).
