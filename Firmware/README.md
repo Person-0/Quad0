@@ -4,9 +4,13 @@ This directory contains custom flight controller firmware for Quad0.
 
 ## Current State
 
-The firmware is currently work-in-progress.
+The firmware is currently work-in-progress and will be updated as I build the project physically. Since this project requires extensive physical testing (Checks for current firmware, PID Tuning, runtime errors etc.), the firmware will be updated progressively as I test while building instead of doing everything before and then rewriting most of the stuff again (which would be a huge waste of time). 
 
-### Boot flow:
+### Boot flow
 1. MCU Powered-on, Stat LED initialized
 2. Battery status checking logic initialized
-3. Battery read, if equal-to or below 15%, boot halted. Stat led blinks 2 times in an interval of 250ms.
+3. Battery read, if equal-to or below 15%, boot halted with status indication.
+4. Main loop starts with all required functions.
+
+### Status LED Indications
+- 2 blinks, 250ms interval -> Battery Low
