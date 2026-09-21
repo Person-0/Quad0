@@ -7,7 +7,6 @@
 // ===== BAROMETER =====
 
 void barometer_setup() {
-    i2c_init(BAR_I2C_BLK, BAR_SPEED * 1000);
     gpio_set_function(BAR_SDA, GPIO_FUNC_I2C);
     gpio_set_function(BAR_SCL, GPIO_FUNC_I2C);
 }
@@ -15,14 +14,41 @@ void barometer_setup() {
 // returns true if barometer working fine
 bool barometer_test() {
     uint8_t id;
-    i2c_write_blocking(BAR_I2C_BLK, BAR_I2C_ADDR, BAR_IDREG, 1, true);
-    i2c_read_blocking(BAR_I2C_BLK, BAR_I2C_ADDR, &id, 1, false);
+    i2c_write_blocking(I2C_BLK, BAR_I2C_ADDR, BAR_IDREG, 1, true);
+    i2c_read_blocking(I2C_BLK, BAR_I2C_ADDR, &id, 1, false);
     return id == BAR_PRODID;
 }
 
 void barometer_read() {
     // WIP
+    // INT pin unused currently
 }
+
+
+// ===== MAGNETOMETER =====
+
+void magnetometer_setup() {
+    gpio_set_function(MG_SDA, GPIO_FUNC_I2C);
+    gpio_set_function(MG_SCL, GPIO_FUNC_I2C);
+}
+
+// returns true if magnetometer working fine
+bool magnetometer_test() {
+    uint8_t id;
+    i2c_write_blocking(I2C_BLK, MG_I2C_ADDR, MG_IDREG, 1, true);
+    i2c_read_blocking(I2C_BLK, MG_I2C_ADDR, &id, 1, false);
+    return id == MG_PRODID;
+}
+
+void magnetometer_read() {
+    // WIP
+    // INT, DRDY pin unused currently
+}
+
+
+// ===============================
+// ========== IMU FULL ===========
+// ===============================
 
 /*
     0 -> ok
@@ -30,9 +56,14 @@ void barometer_read() {
 */
 uint8_t imu_setup() {
 
+    i2c_init(I2C_BLK, I2C_SPEED * 1000);
+
     // barometer setup
     barometer_setup();
     if (!(barometer_test())) return 1;
+
+    magnetometer_setup();
+    if (!(magnetometer_test())) return 2;
 
     return 0;
 }

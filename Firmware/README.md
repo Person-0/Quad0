@@ -19,3 +19,9 @@ These are the error codes currently coded in the firmware. If these are displaye
 
 - 2 blinks, 250ms interval -> Battery too low
 - 5 blinks, 250ms interval -> IMU setup failed, check serial log for more info
+
+### Specific Error Codes
+- IMU setup failed:
+    - Code available in serial console
+    - 1: barometer_test() returned false
+    - 2: magnetometer_test() returned false

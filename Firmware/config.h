@@ -7,8 +7,9 @@
 #define WIFI_RX         16
 #define WIFI_TX         17
 
+#define I2C_BLK         i2c0 // for both Barometer & Magnetometer
+
 // Barometer
-#define BAR_I2C_BLK     i2c0
 #define BAR_SDA          0
 #define BAR_SCL          1
 #define BAR_INT          8
@@ -60,8 +61,14 @@
 //      IMU Config
 // ===============================
 
+#define I2C_SPEED       400 // kHz
+
 // Barometer
-#define BAR_SPEED       400 // kHz
 #define BAR_I2C_ADDR    0x77
 #define BAR_PRODID      0x10
 #define BAR_IDREG       0x8D
+
+// Magnetometer
+#define MG_I2C_ADDR     0x10
+#define MG_PRODID       0x32
+#define MG_IDREG        0x40
