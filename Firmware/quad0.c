@@ -15,25 +15,39 @@ void blink_stat(uint8_t times, uint8_t interval) {
     }
 }
 
+bool battery_status_check() {
+    if (battery_read() <= 15) {
+        blink_stat(2, 250);
+        return 1;
+    }
+    return 0;
+}
+
 int main() {
     stdio_init_all();
 
-    // initialize the stat led
+    // stat led
     gpio_init(STAT_LED);
     gpio_put(STAT_LED, 0);
 
-    // initialize battery info
+    // battery stuff
     battery_setup();
-    if (battery_read() <= 15) { // don't continue if battery < 15%
-        blink_stat(2, 250);
-        return 0;
-    }
+    if (battery_status_check()) return;
 
-    // initialize wifi
+    // wifi stuff
     wifi_setup();
 
+    // main loop
     while (true) {
+
         wifi_task();
+
+        // read battery in defined interval (in battery_status_check),
+        // exit if check failed
+        if (battery_should_read() && battery_status_check()) {
+            break;
+        }
+
     }
 
     return 0;

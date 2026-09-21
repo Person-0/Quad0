@@ -20,3 +20,13 @@ uint8_t battery_read() {
     uint8_t perc = (value * 100) / 4095;
     return perc;
 }
+
+uint16_t lastRead = 15000;
+bool battery_should_read() {
+    uint32_t timeSinceBootMS = to_ms_since_boot(get_absolute_time());
+    if (timeSinceBootMS - lastRead >= 15000) {
+        lastRead = 0;
+        return true;
+    }
+    return false;
+}
