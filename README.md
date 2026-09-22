@@ -2,9 +2,9 @@
 
 *quadcopter with a custom flight controller, firmware that supports both brushed and brushless motors*
 
-<img src="./assets/2.png" width="256px">
+<img src="./assets/4.png" width="512px">
 
-## **Design**
+## **The Idea**
 This is a custom flight controller with minimal stuff required to fly a quadcopter on-board, supporting both brushless and brushed motors.
 
 Onboard components include:
@@ -45,16 +45,47 @@ Steps for viewing the PCB schematics and layout:
 - Open **/PCB/Quad0** directory
 - Select the file `Quad0.kicad_pro`
 
+## Brushed / Brushless Switch
+
+<img src="./assets/9.png" width="512px">
+
+- **Yellow**: Brushed motor connectors
+- **Red**: Brushed / Brusheless Mode selection connector
+
+**For Brushed:** Short both pads together using solder or by soldering 2.54mm headers and adding jumper.
+
+**For Brushless:** Un-short both pads if shorted, connect ESC signal pin to the pad marked with the thick white circle.
+
+Each Mode selection connector is placed closest to the motor output it controls.
+
 ## **CAD Frame**
+> View [/CAD](./CAD/) directory for `.f3d` and `.step` files.
 
-*Work In progress*
+The frame for brushed version of the quadcopter was designed in Fusion360 and looks like this:
 
-Note that the frame will be different for brushed and brushless modes due to weight and size requirements, and I will be designing both myself!
+<img src="./assets/4.png" width="512px">
+<img src="./assets/5.png" width="512px">
+
+**The frame is divided into 3 separate parts:**
+
+- **Main Frame:**
+
+<img src="./assets/6.png" width="512px">
+
+- **Duct Body:**
+
+<img src="./assets/7.png" width="512px">
+
+- **Cover:**
+
+<img src="./assets/8.png" width="512px">
+
+All the parts are made to friction-fit together using cylindrical extrusions and holes, the reason being to minimize the weight of the frame as using screws would add a LOT of weight. The friction fits would allow for either the cover or duct body to be omitted incase they are adding too much weight.
 
 ## **Firmware**
 
-*Work In progress*
+*Please checkout the [Firmware/](./Firmware/) directory to view the firmware source, current state and compiling / flashing instructions.*
 
-> *Note that the hardware is [fully supported](https://betaflight.com/blog/2025/10/10/RP2350%20Lands%20in%20Betaflight) by [Betaflight](https://betaflight.com/)*
+> Note that the hardware is also [fully supported](https://betaflight.com/blog/2025/10/10/RP2350%20Lands%20in%20Betaflight) by [Betaflight](https://betaflight.com/). Instructions on how to setup betaflight will be provided after I physically test it myself to know what works.
 
 ## 😼💖

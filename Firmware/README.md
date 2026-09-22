@@ -53,10 +53,12 @@ These are the error codes currently coded in the firmware. If these are displaye
 - Hold the boot tactile switch on the PCB while plugging it into your PC, this will allow us to flash the firmware
 - Use the `Run` button next to the Compile button at the bottom bar to compile, flash the firmware. After the firmware is flashed, the board will auto reboot and you will see the results directly.
 
+> Note that all pin definitions and configuration variables are defined in the [config.h](./config.h) file.
+
 ## Special Notes
 
 - Use the official Raspberry Pi Pico VS Code extension to build or flash the firmware as it will save you lots of time and config messes.
 
 
-## Pin Definiions
+## Pin Definitions
 Available in [config.h](./config.h).
