@@ -4,7 +4,7 @@ This directory contains custom flight controller firmware for Quad0.
 
 ## Current State
 
-The firmware is currently work-in-progress and will be updated as I build the project physically. Since this project requires extensive physical testing (Checks for current firmware, PID Tuning, runtime errors etc.), the firmware will be updated progressively as I test while building instead of doing everything before and then rewriting most of the stuff again (which would be a huge waste of time). 
+The firmware is currently work-in-progress and will be updated as I build the project physically. Since this project requires extensive physical testing (Checks for current firmware, PID Tuning, runtime errors etc.), the firmware will be updated progressively as I test while building instead of doing everything before and then rewriting most of the stuff again (which would be a huge waste of time).
 
 ### Boot flow
 1. MCU Powered-on, Stat LED initialized
@@ -12,6 +12,21 @@ The firmware is currently work-in-progress and will be updated as I build the pr
 3. Battery read, if equal-to or below 15%, boot halted with status indication
 4. Other components initialized (WiFI Rx, IMU, Motors)
 5. Main loop starts and calls all methods at every iteration
+
+
+### What is expected to work?
+The following stuff is expected to happen on powering the MCU, with sufficient battery charge (or USB power):
+- MCU Boots
+- Power LED lights up
+- Status LED does not light up at all (battery charge is above 15%)
+- All components are properly initialized, Status LED does not blink (no IMU error)
+- Program flow proceeds to the main loop
+- Status LED does not light up at all again (battery charge above 5%)
+
+### What is left?
+- Receiving Instructions from the WiFi receiver: will be done after ESP01 is confirmed to be working fine with the current initialization setup.
+- Reading IMU sensors data: again, will be done after any errors that show up during IMU initialization after real world testing are fixed.
+- Drone stabilization, calibration / PID Tuning: will be done after the previous two steps are complete.
 
 ### Status LED Indications
 
