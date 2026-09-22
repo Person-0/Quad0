@@ -100,6 +100,7 @@ The grand total for this comes out to be at `$108.95`, including `$9.86` for shi
 This is after minimizing extended components usage and using basic PCBA (cheapest option). The PCB quantity and PCBA quantity is the MOQ (minimum order quantity): 5, 2 respectively.
 
 **Cart Screenshot:**
+
 <img src="./PCB/Ordering/cart.png" width="512px">
 
 2. **Other components**
