@@ -50,8 +50,8 @@ These are the error codes currently coded in the firmware. If these are displaye
 - The extension will automatically detect your workspace and install necessary toolchains that will be used to compile the firmware
 - Edit files if required
 - Press `Compile` at the bottom bar to test whether the firmware compiles successfully
-- Hold the boot tactile switch on the XIAO-RP040 while plugging it into your PC, this will allow us to flash the firmware
-- Use the `Run` button next to the Compile button at the bottom bar to compile, flash the firmware to the Pico. After the firmware is flashed, the Pico will auto reboot and you will see the results directly.
+- Hold the boot tactile switch on the PCB while plugging it into your PC, this will allow us to flash the firmware
+- Use the `Run` button next to the Compile button at the bottom bar to compile, flash the firmware. After the firmware is flashed, the board will auto reboot and you will see the results directly.
 
 ## Special Notes
 
